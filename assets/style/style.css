@@ -1,0 +1,37 @@
+.first-row {
+  height: auto;
+  background: lime;
+}
+.inputs-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.buttons {
+  display: grid;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.one-btn {
+  margin-bottom: 10px;
+}
+.outputs-section {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.outputs {
+  padding-top: 20px;
+}
+div{
+  color: red;
+}
